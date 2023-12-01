@@ -1,0 +1,140 @@
+{
+    "intents": [
+      {
+        "tag": "saludo",
+        "patterns": ["hola", "qué tal", "cómo estás", "saludos"],
+        "responses": ["¡Hola!", "Buenos días.", "¿Cómo estás?"]
+      },
+      {
+        "tag": "nombre",
+        "patterns": ["cómo es tu nombre", "cómo te llamas"],
+        "responses": ["Me llamo IAGrafiquer", "Mi nombre es IAGrafiquer"]
+      },
+      {
+        "tag": "solicitud_usuario",
+        "patterns": ["necesito que haiga un usuario", "quiero que tenga un usuario","agrega un usuario","con un usuario"],
+        "responses": ["User"]
+      },
+      {
+        "tag": "solicitud_computadoras_clientes",
+        "patterns": ["necesito que tenga computadoras", "quiero tenga computadoras","agrega una computadoras","con computadoras"],
+        "responses": ["Client"]
+      },
+      {
+        "tag": "solicitud_firewall",
+        "patterns": ["necesitoque tenga un firewall", "agrega un firewall","con un firewall"],
+        "responses": ["GenericFirewall"]
+      },
+      {
+        "tag": "solicitud_internet",
+        "patterns": ["necesito que tenga coneccion a internet", "con coneccion a internet","agrega una coneccion a internet"],
+        "responses": ["InternetAlt2"]
+      },
+      {
+        "tag": "solicitud_server",
+        "patterns": ["necesito que tenga un servidor", "con un servidor","agrega una servidor"],
+        "responses": ["TraditionalServer"]
+      },
+      {
+        "tag": "solicitud_seguridad",
+        "patterns": ["necesito que tenga seguridad", "con seguridad","agrega seguridad"],
+        "responses": ["SslPadlock"]
+      },
+      {
+        "tag": "solicitud_firewallweb",
+        "patterns": ["necesito que tenga un firewall para la web", "con un firewall para la web","agrega un firewall para la web"],
+        "responses": ["WAF"]
+      },
+      {
+        "tag": "solicitud_tranferencia",
+        "patterns": ["necesito que tenga una tranferencia de datos", "con una tranferencia de datos","agrega una tranferencia de datos"],
+        "responses": ["TransferForSftp"]
+      },
+      {
+        "tag": "solicitud_distribucion",
+        "patterns": ["necesito que tenga una distribucion de carga", "una distribucion de carga","agrega una distribucion de carga"],
+        "responses": ["ALB"]
+      },
+      {
+        "tag": "solicitud_servicio",
+        "patterns": ["necesito que tenga un servicio en la nube", "con un  servicio en la nube","agrega un  servicio en la nube"],
+        "responses": ["EC2Instances"]
+      },
+      {
+        "tag": "solicitud_servicio_virtual",
+        "patterns": ["necesito que tenga una maquina virtual", "con una maquina virtual","agrega una maquina virtual"],
+        "responses": ["EC2"]
+      },
+      {
+        "tag": "solicitud_identificador_sseguridad",
+        "patterns": ["necesito que tenga un identificador de seguridad", "con un identificador de seguridad","agrega un identificador de seguridad"],
+        "responses": ["Inspector"]
+      },
+      {
+        "tag": "solicitud_claves",
+        "patterns": ["necesito que tenga claves de cifrado", "con claves de cifrado","agrega claves de cifrado"],
+        "responses": ["KMS"]
+      },
+      {
+        "tag": "solicitud_gestionar_acceso",
+        "patterns": ["necesito que tenga un gestionador de acceso", "con un gestionador de acceso","agrega un gestionador de acceso"],
+        "responses": ["IdentityAndAccessManagementIamAddOn"]
+      },
+      {
+        "tag": "solicitud_database",
+        "patterns": ["necesito que tenga una base de datos general", "con una base de datos general","agrega una base de datos general"],
+        "responses": ["DB"]
+      },
+      {
+        "tag": "solicitud_database_sql",
+        "patterns": ["necesito que tenga una base de datos sql", "con una base de datos sql","agrega una base de datos sql"],
+        "responses": ["RDSSqlServerInstance"]
+      },
+      {
+        "tag": "solicitud_database_postgresql",
+        "patterns": ["necesito que tenga una base de datos postgre sql", "con una base de datos postgre sql","agrega una base de datos postgre sql"],
+        "responses": ["RDSPostgresqlInstance"]
+      },
+      {
+        "tag": "solicitud_database_mariadb",
+        "patterns": ["necesito que tenga una base de datos maria db", "con una base de datos maria db","agrega una base de datos maria db"],
+        "responses": ["RDSMariadbInstance"]
+      },
+      {
+        "tag": "solicitud_subnetprivate",
+        "patterns": ["necesito que tenga una sub red privada", "con una sub red privada","agrega una sub red privada"],
+        "responses": ["PrivateSubnet"]
+      },
+      {
+        "tag": "solicitud_subnetpublic",
+        "patterns": ["necesito que tenga una sub red publica", "con una sub red publica","agrega una sub red publica"],
+        "responses": ["PublicSubnet"]
+      },
+      {
+        "tag": "solicitud_mobile",
+        "patterns": ["necesito que tenga un dispositivos movil", "con un un dispositivos movil","agrega un dispositivos movil"],
+        "responses": ["MobileClient"]
+      },
+      {
+        "tag": "solicitud_ejemplo_cloud",
+        "patterns": ["has un diagrama para la nube", "realiza un ejemplo de diagrama en la nube","infraestructura en la nube"],
+        "responses": ["DiagramaCloud"]
+      },
+      {
+        "tag": "solicitud_ejemplo_Red",
+        "patterns": ["has un diagrama para una red", "realiza un ejemplo de diagrama para una red","infraestructura para una red"],
+        "responses": ["DiagramaRed"]
+      },
+      {
+        "tag": "solicitud_ejemplo_Red_Interna",
+        "patterns": ["has un diagrama de red Interna", "realiza un ejemplo de diagrama de red Interna","infraestructura de red Interna"],
+        "responses": ["DiagramaRedInterna"]
+      },
+      {
+        "tag": "solicitud_ejemplo_Red_Enpresa",
+        "patterns": ["has un diagrama de red para Empresa", "realiza un ejemplo de diagrama de red para Empresa","infraestructura de red para Empresa"],
+        "responses": ["DiagramaRedEmpresa"]
+      }
+    ]
+}
+  
